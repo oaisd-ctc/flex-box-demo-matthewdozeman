@@ -12,6 +12,7 @@ hr {
 
 body {
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .flex-container {
@@ -128,3 +129,57 @@ h3{
 #wrap-reverse {
     flex-wrap: wrap-reverse;
 }
+
+.justify-content {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+    margin: auto;
+}
+
+#flex-start {
+    justify-content: flex-start;
+}
+
+#flex-end {
+    justify-content: flex-end;
+}
+
+#space-around {
+    justify-content: space-around;
+}
+
+#space-between {
+    justify-content: space-between;
+}
+
+#flex-only {
+    display: flex;
+}
+
+.flex-order {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.flex-grow {
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
