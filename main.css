@@ -26,6 +26,7 @@ body {
 .flex-item {
     display: flex;
     background-color: black;
+    color: white;
     margin: 10px;
     padding: 50px;
     font-size: 30px;
@@ -59,4 +60,71 @@ h2 {
     color: white;
     text-align: center;
     font-size: 35px;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+    margin: auto;
+}
+
+#flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description {
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#col-rev {
+    flex-direction: column-reverse;
+}
+
+#row {
+    flex-direction: row;
+}
+
+#row-rev {
+    flex-direction: row-reverse;
+}
+
+.description {
+    color: white;
+    text-align: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+    margin: auto;
+}
+
+#nowrap {
+    flex-wrap: nowrap;
+}
+
+#wrap-reverse {
+    flex-wrap: wrap-reverse;
 }
