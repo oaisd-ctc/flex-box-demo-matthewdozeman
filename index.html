@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>flex-box</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>FLEX-BOX</h1>
+        </div>
+    </header>
+    <article>
+        <section class="flex-column">
+            <div class="flex-container" id="container-ex">
+                <p class="box-title">Container</p>
+                <div class="items-container">
+                <div class="flex-item"></div>
+                <div class="flex-item"></div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-item item-ex">item</div>
+                <div class="flex-item item-ex">item</div>
+            </div>
+        </section>
+
+
+        <hr/>
+                    <h2>Flex Container Properties</h2>
+        <section class="flex-column">
+            <div class="flex-direction">
+                <p class="box-title">Flex-Direction</p>
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            <div class="flex-container" id="flex-wrap">
+                <p class="box-title">Flex-Wrap</p>
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+                <div class="flex-item">3</div>
+
+            </div>
+            <div class="flex-container">
+                <p class="box-title">Justify Content</p>
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+        </section>
+
+
+        <hr/>
+        <section>
+            <h2>Flex Direction</h2>
+            <h3>flex-direction: column</h3>
+            <div class ="flex-column">
+            <div class="flex-direction">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Column aligns the items in a column.</div>
+        </section>
+        <section>
+            <h3>flex-direction: column reverse;</h3>
+                <div class ="flex-column">
+                    <div class="flex-direction" id="col-rev">
+                        <div class="flex-item">1</div>
+                        <div class="flex-item">2</div>
+                        <div class="flex-item">3</div>
+                    </div>
+                    </div>
+            <div class="description">Column-Reverse aligns the items in a column going the reverse direction.</div>
+        </section>
+        <section>
+            <h3>flex-direction: row;</h3>
+                <div class ="flex-column">
+                    <div class="flex-direction" id="row">
+                        <div class="flex-item">1</div>
+                        <div class="flex-item">2</div>
+                        <div class="flex-item">3</div>
+                    </div>
+                    </div>
+            <div class="description">Row aligns the items in a row.</div>
+            <h3>flex-direction: row reverse;</h3>
+                <div class ="flex-column">
+                    <div class="flex-direction" id="row-rev">
+                        <div class="flex-item">1</div>
+                        <div class="flex-item">2</div>
+                        <div class="flex-item">3</div>
+                    </div>
+                    </div>
+                <div class="description">Row-Reverse aligns the items in a row going in the reverse direction.</div>
+        </section>
+
+
+        <hr/>
+        <section>
+            <h2>Flex Wrap</h2>
+            <h3>flex-wrap: wrap;</h3>
+            <div class ="flex-column">
+            <div class="flex-wrap">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Wrap causes the items to wrap if necesary.</div>
+        </section>
+        <section>
+            <h3>flex-wrap: nowrap;</h3>
+            <div class ="flex-column">
+            <div class="flex-wrap" id="nowrap">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Nowrap causes the items not to wrap.</div>
+        </section>
+        <section>
+            <h3>flex-wrap: wrap-reverse</h3>
+            <div class ="flex-column">
+            <div class="flex-wrap" id="wrap-reverse">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Wrap-Reverse causes the items to wrap in reverse order.</div>
+        </section>
+
+
+        <hr/>
+        <section>
+            <h2>Justify Content</h2>
+            <h3>justify-content: center;</h3>
+            <div class ="flex-only">
+            <div class="justify-content">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Center aligns the items in the center of the container.</div>
+        </section>
+        <section>
+            <h3>justify-content: flex-start;</h3>
+            <div class ="flex-only">
+            <div class="justify-content" id="flex-start">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Flex-Start aligns the items at the beginning of the container.</div>
+        </section>
+        <section>
+            <h3>justify-content: flex-end;</h3>
+            <div class ="flex-only">
+            <div class="justify-content" id="flex-end">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Flex-End aligns the items at the end of the container.</div>
+        </section>
+        <section>
+            <h3>justify-content: space-around;</h3>
+            <div class ="flex-only">
+            <div class="justify-content" id="space-around">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Space-Around aligns the items with space before, after, and in between the lines.</div>
+        </section>
+        <section>
+            <h3>justify-content: space-between;</h3>
+            <div class ="flex-only">
+            <div class="justify-content" id="space-between">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            </div>
+            <div class="description">Space-Between aligns the items with space between the lines.</div>
+        </section>
+
+
+        <hr/>
+                    <h2>Flex Item Properties</h2>
+        <section class="flex-column">
+            <div class="flex-order">
+                <p class="box-title">Flex-Order</p>
+                <div class="flex-item" style="order: 2">1</div>
+                <div class="flex-item" style="order: 3">2</div>
+                <div class="flex-item" style="order: 1">3</div>
+            </div>
+            <div class="flex-grow">
+                <p class="box-title">Flex-Grow</p>
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item" style="flex-grow: 3">3</div>
+
+            </div>
+            <div class="flex-grow">
+                <p class="box-title">Flex-Shrink</p>
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item" style="flex-shrink: 8">3</div>
+                <div class="flex-item">4</div>
+                <div class="flex-item">5</div>
+                <div class="flex-item">6</div>
+                <div class="flex-item">7</div>
+            </div>
+        </section>
+
+
+        <hr/>
+        <section>
+            <h3>Flex-Order</h3>
+            <div class="flex-column">
+            <div class="flex-order">
+                <div class="flex-item" style="order: 2">1</div>
+                <div class="flex-item" style="order: 3">2</div>
+                <div class="flex-item" style="order: 1">3</div>
+            </div>
+            </div>
+            <div class="description">Order specifies the order of the items.</div>
+        </section>
+
+
+        <hr/>
+        <section>
+            <h3>Flex-Grow</h3>
+            <div class="flex-column">
+            <div class="flex-grow">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item" style="flex-grow: 8">3</div>
+            </div>
+            </div>
+            <div class="description">Grow specifies how much an object will grow compared to other objects.</div>
+        </section>
+
+
+        <hr/>
+        <section>
+            <h3>Flex-Shrink</h3>
+            <div class="flex-column">
+            <div class="flex-grow">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item" style="flex-shrink: 8">3</div>
+                <div class="flex-item">4</div>
+                <div class="flex-item">5</div>
+                <div class="flex-item">6</div>
+                <div class="flex-item">7</div>
+            </div>
+            </div>
+            <div class="description">Shrink specifies how much an object will shrink relative to others.</div>
+        </section>
+
+        
+    </article>
+    
+    
+</body>
+</html>
